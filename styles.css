@@ -238,10 +238,27 @@ span {
   font-size: large;
   font-weight: bolder;
   margin-right: 45%;
-  color: #8b4513;
+  
   text-align: center;
   margin-top: 20px;
   font-size: 2.5rem;
+ 
+}
+
+/* Apply custom font to h1 */
+.titulo {
+    font-family: 'customFont', sans-serif;
+    font-size: 5rem; /* Adjust font size as needed */
+    text-align: center;
+    color: transparent; /* Hide text */
+    background-image: url('./images/cafe-5.png'); /* Background image */
+    background-size: cover; /* Scale background image to cover the entire text */
+    -webkit-background-clip: text; /* Apply background to text */
+    background-clip: text; /* Apply background to text */
+}
+
+h6 {
+  margin-top: 0; /* Remove top margin for better positioning */
 }
 
 /* Main Content Container */
