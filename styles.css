@@ -1,0 +1,360 @@
+/* 
+
+.navbar-nav {
+    color: antiquewhite;
+    margin-left: auto;
+    
+}
+.nav-item{
+    border: 10px;
+    gap: 3px;
+    font-weight: 900;
+    height: 35px;
+}
+.navbar-nav .aboutus-bar:hover{
+    background-color: rgb(82, 2, 2);
+}
+.aboutus-bar{
+    border-radius: 12px;
+    border: 1px black solid;
+}
+.purchase-bar{
+    color: pink;
+    border: 1px black solid;
+    border-radius: 12px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+}
+p{
+    
+    margin: 0 3px;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: grey;
+    box-shadow: 2px 2px 2px 2px grey;
+    
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: rgb(217, 217, 217);
+    margin: 3px 7px 0 5px;
+    border-radius: 5px;
+    background: #e0e0e0;
+    box-shadow:  19px 19px 38px #9f9f9f, -19px -19px 38px #ffffff;
+}
+
+.nav-item:hover {
+    background-color: indianred;
+}
+
+
+
+.carousel {
+    width: 500px; 
+    margin: 1px auto;
+}
+
+.carousel-inner {
+    position: static;
+    margin: 1px auto;
+}
+
+.carousel-item {
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    transition: ease-in;
+    margin: 0 -30px;
+    
+}
+span{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    gap: 3px;
+    border: 1px gray dashed;
+}
+
+.letters {
+    color: rgb(2, 4, 63);
+    flex: 2;
+    padding-right: 5px;
+}
+.fin{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.imagenes img{
+    display: flex;
+    width: 50%;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    margin: 10px 100px;
+    box-shadow:  19px 19px 38px #d8f7f6, -19px -19px 38px #ffffff;
+}
+
+figcaption{
+    color: rgb(79, 4, 172);
+    font-size: x-small;
+    text-align: center;
+    margin: 0;
+    
+}
+.contact, h3 {
+    background-color: rgb(232, 232, 229);
+    color: #280f0f;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+    box-shadow:  19px 19px 38px #6a6b6b, -19px -19px 38px #ffffff;
+}
+
+.whatsapp{
+    color: #2c1919;
+    width: 50px;
+    height: 50px;
+
+} */
+
+/* Google Font Import */
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap");
+
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Links */
+a {
+  color: rgb(245, 238, 224);
+  font-weight: bold;
+  font-size: medium;
+}
+
+/* Navbar */
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url("./images/Cafe-5.png");
+  box-shadow: 2px 2px 2px 2px grey;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  padding: 6px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin: 3px 7px 0 5px;
+  border-radius: 5px;
+  color: #280f0f;
+  box-shadow: 19px 19px 38px #9f9f9f, -19px -19px 38px #ffffff;
+}
+
+.nav-item:hover {
+  background-image: url("./images/Cafe-1.png");
+  color: rgb(225, 220, 245);
+}
+
+/* Paragraphs */
+p {
+  margin: 0 28px 0 12px;
+  padding: 1.5px 5px;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.dark-text {
+  color: rgb(6, 6, 6);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: small;
+}
+/* Carousel */
+.carousel {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  position: static;
+  margin: 0 auto;
+}
+
+.carousel-item {
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  transition: ease-in;
+  margin: 0 -20px;
+}
+
+/* Page Title */
+span {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: rgb(125, 101, 6);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bolder;
+  margin-right: 45%;
+  color: #8b4513;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.5rem;
+}
+
+/* Main Content Container */
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  gap: 3px;
+}
+
+.letters {
+  color: rgb(2, 4, 63);
+  flex: 2;
+  padding-right: 5px;
+}
+
+/* Contact Section */
+.contact,
+h3 {
+  background-color: rgb(232, 232, 229);
+  color: #280f0f;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  height: auto;
+  box-shadow: 15px 15px 28px #6a6b6b, -19px -19px 38px #ffffff;
+}
+
+.whatsapp {
+  color: #2c1919;
+  width: 50px;
+  height: 50px;
+}
+
+/* Image Styles */
+.imagenes img {
+  width: 200px;
+  height: auto;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 3px rgb(66, 39, 39);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.imagenes img:hover {
+  transform: rotateY(140deg);
+  filter: grayscale(100%);
+}
+
+/* Caption Styles */
+figcaption {
+  color: #161615;
+  font-size: x-small;
+  text-align: center;
+  margin: 0;
+}
+
+/* Container for Flip Effect */
+.flip-container {
+  perspective: 1000px;
+}
+
+/* Flipper Container */
+.flipper {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+/* Final Section */
+.final {
+  width: 100%;
+  padding: 0px;
+}
+
+/* Image Container */
+.imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Image Container */
+.imagenes figure {
+  margin: 10px;
+}
+
+/* Image Styles */
+.imagenes img {
+  width: 200px;
+  height: auto;
+}
+
+.h1 {
+  color: #8b4513; /* Brown color for vintage feel */
+  text-align: center;
+  text-decoration: underline;
+  margin-top: -50px;
+  font-size: 2.5rem;
+}
+.testimonials {
+  color: #8b4513; /* Brown color for vintage feel */
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 5px;
+  font-size: 2.5rem;
+}
+
+.parrafos {
+  font-style: italic;
+  font-family: fantasy;
+  font-size: small;
+}
